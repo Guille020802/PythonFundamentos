@@ -1,6 +1,0 @@
-
-
-print('dsa')
-
-
-pint('hola')
