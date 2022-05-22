@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>CONFIGURANDO EL ENTORNO</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>index</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -13976,97 +13976,128 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="ANACONDA"><a href="https://www.anaconda.com/">ANACONDA</a><a class="anchor-link" href="#ANACONDA">&#182;</a></h3>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Anaconda es un distribución libre y abierta1 de los lenguajes Python y R, utilizada en ciencia de datos, y aprendizaje automático (machine learning). Esto incluye procesamiento de grandes volúmenes de información, análisis predictivo y cómputos científicos. Está orientado a simplificar el despliegue y administración de los paquetes de software.</p>
-<p>Las diferentes versiones de los paquetes se administran mediante el sistema de gestión de paquetes conda, el cual lo hace bastante sencillo de instalar, correr, y actualizar software de ciencia de datos y aprendizaje automático como ser Scikit-team, TensorFlow y SciPy.</p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><img src="https://docs.anaconda.com/_images/nav-defaults.png" alt="Anaconda Imagen"></p>
-
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="INSTALANDO-ANACONDA">INSTALANDO ANACONDA<a class="anchor-link" href="#INSTALANDO-ANACONDA">&#182;</a></h4>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Para preparar nuestro entorno de aprendizaje realizaremos las siguientes instalaciones:</p>
 <ol>
-<li>Puedes descargar Anaconda con la última versión de Python 3.x desde este <a href="https://www.anaconda.com/products/individual">enlace</a>. <strong>Instalar la última paquete disponible</strong> </li>
+<li>Anaconda</li>
+<li>Visual Studio Code</li>
+<li>Git</li>
 </ol>
+<p>Por favor siga cada una de las instrucciones que se mencionan</p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><img src="./img/anaconda_paquetes.png" alt="Anaconda Paquetes"></p>
+<h3 id="1.-ANACONDA"><a href="https://www.anaconda.com/">1. ANACONDA</a><a class="anchor-link" href="#1.-ANACONDA">&#182;</a></h3>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Anaconda nos provee de una plataforma muy completa para poder desarrollar nuestros proyectos de Data Science, simplifica la tarea de instalación y configuración de las distintas aplicaciones que necesitaremos usar en nuestro viaje. Podemos utilizarlo tanto por terminal como por interfaz gráfica (GUI). Por el momento avancemos con la segunda opción, es más amigable para quien no está acostumbrado a la línea de comandos.</p>
+<p>Algunas ventajas de utilizar Anaconda para tus proyectos son:</p>
+<ul>
+<li>Manejar los entornos de trabajo con Conda (todas las dependencias de librerías se resuelven en el momento de instalación)</li>
+<li>Posibilidad de compartir, colaborar y reproducir los proyectos</li>
+<li>Puedes pasar tu proyecto a producción solo con un click (una vez configurado)</li>
+</ul>
+<p>Dentro de las variadas aplicaciones que nos ofrece Anaconda vamos a utilizar Jupyter Notebooks con Python 3.9.</p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<!-- ![Anaconda Imagen]() -->
+
+<p><img src="https://docs.anaconda.com/_images/nav-defaults.png" widht=150></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="INSTALANDO-ANACONDA">INSTALANDO ANACONDA<a class="anchor-link" href="#INSTALANDO-ANACONDA">&#182;</a></h4><p>Para realizar la instalación debes seguir los siguientes pasos:</p>
 <ol>
-<li>Una vez descargado le ejecutamos el archivo .exe. Una vez cargado seleccionamos el boton <code>**Just Me**</code> y damos click en siguiente.</li>
+<li>Ir a <a href="https://www.anaconda.com/distribution/">https://www.anaconda.com/distribution/</a></li>
+<li>Selecciona tu versión de Sistema Operativo: Windows - macOS - Linux</li>
+<li>Haz click en Descargar/Download “Python 3.9 version o la última disponible” (o click en la versión adecuada para tu CPU 64-bit o 32-bit)</li>
 </ol>
+<p><br></p>
+<p>Nota:</p>
+<p><strong>De contar con alguna versión de python previamente instalada en su sistema operativo. Igual puede instalar anaconda</strong></p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<center><img src='./img/anaconda/instalacion_anaconda_1.png' width="500" height="600"></center>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ol>
-<li>Nos aparecerá la ruta de instalación por defecto, damos siguiente. En la siguiente pantalla selecionamos la opción de la imagen.</li>
-</ol>
+<p><img src="./img/anaconda/anaconda_paquetes.jpg" widht=150 height="400"></p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<center><img src='./img/anaconda/instalacion_anaconda_2.png' width="500" height="600"></center>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ol>
-<li>Por último presionamos instalar y esperamos a que termine la instalación del programa.</li>
-<li>Una vez instalado reiniciamos el equipo.</li>
-</ol>
+<p>Después de descargar el instalador gráfico, debes abrirlo y seguir las instrucciones que se presentarán en pantalla. Estas son una serie de preguntas para realizar la instalación, las opciones por defecto están bien, no hay necesidad de cambiarlas.</p>
+<p><strong>Se muestran las opciones por defecto</strong></p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ol>
-<li>Una vez que el equipo se encuentre reiniciado, iniciamos Jupyter Notebook.</li>
-</ol>
+<center><img src='./img/anaconda/instalacion_anaconda_1.png' width="500" height="400"></center>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<center><img src='./img/anaconda/instalacion_anaconda_2.png' width="500" height="400"></center>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Iniciando-Anaconda">Iniciando Anaconda<a class="anchor-link" href="#Iniciando-Anaconda">&#182;</a></h3>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Una vez que finalice la instalación abriremos el programa Jupyter Notebook (el cual esta incluido en el paquete de anaconda). Ello con el fin de comprobar que hemos realizado una instalación exitosa.</p>
+<p>Para esto, debemos buscarlo en inicio de windows o por defecto en el buscador que se encuentra en la barra de tareas.</p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<center><img src='./img/anaconda/Jupyter.png' width="500" height="600"></center>
+<center><img src='./img/anaconda/Jupyter.png' width="500" height="400"></center>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<center><img src='./img/anaconda/Jupyter2.png' width="500" height="600"></center>
+<p>Esto debería abrir una consola la cual nos debería direccionar a un sitio web de forma automática.</p>
+<p>Para lo casos en que esto no ocurra:</p>
+<ul>
+<li>Si la pantalla de la consola se mantiene en negro deberiamos esperar unos minutos a que ocurra el cambio.</li>
+<li>De no aperturar el sitio web, podemos copiar alguna de las url que nos aparezca en la consola en el navegador de nuestra preferencia (se recomienda google chrome) </li>
+</ul>
+
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="VISUAL-STUDIO-CODE"><a href="https://code.visualstudio.com/">VISUAL STUDIO CODE</a><a class="anchor-link" href="#VISUAL-STUDIO-CODE">&#182;</a></h3>
+<p><img src='./img/anaconda/jupyter_consola.jpg' width="700" height="500"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src='./img/anaconda/jupyter_web.jpg' width="700" height="500"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Hasta aqui hemos terminado con la instalación de anaconda.</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="2.-VISUAL-STUDIO-CODE"><a href="https://code.visualstudio.com/">2. VISUAL STUDIO CODE</a><a class="anchor-link" href="#2.-VISUAL-STUDIO-CODE">&#182;</a></h3>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
@@ -14077,20 +14108,22 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<center><img src='https://code.visualstudio.com/assets/updates/1_37/icons.gif' width="700" height="500"></center>
+<center><img src='https://code.visualstudio.com/assets/updates/1_37/icons.gif' width="700" height="400"></center>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="INSTALANDO-VSCODE">INSTALANDO VSCODE<a class="anchor-link" href="#INSTALANDO-VSCODE">&#182;</a></h4>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="INSTALANDO-VSCODE">INSTALANDO VSCODE<a class="anchor-link" href="#INSTALANDO-VSCODE">&#182;</a></h4><p>Para realizar la instalación debes seguir los siguientes pasos:</p>
 <ol>
-<li>Puedes descargar VSCode desde el siguiente <a href="https://code.visualstudio.com/">enlace</a></li>
+<li>Ir a <a href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</a></li>
+<li>Selecciona tu versión de Sistema Operativo: Windows - macOS - Linux</li>
 </ol>
 
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<center><img src='./img/vscode/vscode_web.jpg' width="700" height="400"></center>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
@@ -14150,6 +14183,134 @@ a.anchor-link {
 <ol>
 <li>Una vez terminada la instalación podemos cerrar el programa.</li>
 </ol>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="3.-Git"><a href="https://git-scm.com/">3. Git</a><a class="anchor-link" href="#3.-Git">&#182;</a></h3>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<center><img src='./img/git/git.jpeg' width="500" height="300"></center>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="INSTALANDO-GIT">INSTALANDO GIT<a class="anchor-link" href="#INSTALANDO-GIT">&#182;</a></h4><p>Para realizar la instalación debes seguir los siguientes pasos:</p>
+<ol>
+<li>Ir a <a href="https://git-scm.com/">https://git-scm.com/</a></li>
+<li>Selecciona tu versión de Sistema Operativo: Windows - macOS - Linux</li>
+<li>Descargar el sofware que corresponda a su sistema operativo</li>
+</ol>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<center><img src='./img/git/descarga.jpg' width="500" height="300"></center>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Después de descargar el instalador gráfico, debes abrirlo y seguir las instrucciones que se presentarán en pantalla. Estas son una serie de preguntas para realizar la instalación, las opciones por defecto están bien, no hay necesidad de cambiarlas.</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Configuracion-Final-Python">Configuracion Final Python<a class="anchor-link" href="#Configuracion-Final-Python">&#182;</a></h3>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Al instalar Anaconda, nuestro python integrado en este no es reconocido por windows. Por lo que si aperturamos un powershell o cmd en windows tendremos el siguiente problema.</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="./img/final/python_not_recognized.jpg"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Para solucionar esto debemos realizar lo siguiente:</p>
+<ol>
+<li><p>Aperturamos Anaconda prompt (podemos localizarlo dentro de los programas de windows en menu inicio o buscarlo por su nombre)</p>
+</li>
+<li><p>Una vez abierto la línea de comando escribimos:</p>
+<p><code >where python</code></p>
+<p>o de no funcionar tambien podemos usar</p>
+<p><code>python -c "import sys; print('\n'.join(sys.path))"</code></p>
+</li>
+<li><p>Copiamos la ruta que nos aparezca (fijarse que la ruta contiene la palabra anaconda)</p>
+</li>
+</ol>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="./img/final/consola_anaconda.jpg"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<ol>
+<li>Una vez obtenida la ruta.Desde el buscador de windows(barra de tareas) abrimos el programa "variables de entorno"</li>
+</ol>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="./img/final/variables_entorno.jpg" height="500"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Hacemos click en <strong>"Variables de Entorno..."</strong>
+Buscamos la variable <strong>"Path"</strong> y seleccionamos <strong>"Editar"</strong> dentro de las opciones</p>
+<p>Damos click al boton <strong>Nuevo</strong>
+y en el espacio aperturado <strong>copiamos la ruta del paso previo</strong></p>
+<p>Para finalizar damos aceptar en todas las ventanas.</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="./img/final/config_variables_entorno.PNG" height="500"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Para comprobar, aperturamos un nuevo CMD en Windows</p>
+<p>Abrir <strong>CMD Windows</strong>: <code> tecla Windows + R </code> y escribir sobre la ventana abierta <code> cmd</code></p>
+<p>Escribimos python y deberia aparecer lo siguiente o algo similar.</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="./img/final/cmd_python.jpg" height="300"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><a href="https://stackoverflow.com/questions/49616399/windows-anaconda-python-is-not-recognized-as-an-internal-or-external-command">https://stackoverflow.com/questions/49616399/windows-anaconda-python-is-not-recognized-as-an-internal-or-external-command</a></p>
 
 </div>
 </div>
